@@ -70,7 +70,7 @@ function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOn
         return () => {
             stopInterval();
         };
-    }, [currentImageIndex, imageDuration, isPaused]);
+    }, [currentImageIndex, imageDuration, isPaused, nextSlide]);
 
     return (
         <div

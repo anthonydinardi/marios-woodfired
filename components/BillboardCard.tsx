@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -21,7 +22,7 @@ function BillboardCard({ imagePath, title, subtitle, buttonText, backgroundColor
                 <p className="text-xl font-normal">{subtitle}</p>
                 <p><Link className={`border ${buttonColor} rounded-full px-3.5 py-1 font-semibold`} href={`${buttonLink}`}>{buttonText}</Link></p>
             </div>
-            <img src={imagePath}
+            <Image alt='billboard-image' src={imagePath}
                 className='object-contain md:w-1/2 md:' />
         </div>
     )
