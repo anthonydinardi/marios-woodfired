@@ -10,8 +10,8 @@ export default function Home() {
   ];
 
   return (
-    <main className="flex min-h-screen flex-col items-center space-y-6">
-      <Carousel height={"h-[200px] md:h-[550px]"} imagePaths={images} pauseOnHover={true} />
+    <main className="flex min-h-screen flex-col items-center space-y-6 max-w-[1080px] 2xl:max-w-[1440px] m-auto">
+      <Carousel height={"h-[200px] md:h-[550px]"} imagePaths={images} pauseOnHover={false} />
 
       <BillboardCard
         backgroundColor='bg-[#0F4D05]'

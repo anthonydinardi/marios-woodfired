@@ -28,7 +28,6 @@ function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOn
         const lastIndex = imagePaths.length - 1;
         const shouldResetIndex = currentImageIndex === lastIndex;
         const index = shouldResetIndex ? 0 : currentImageIndex + 1;
-        console.log('index: ', index);
         setCurrentImageIndex(index);
     }
 
@@ -74,7 +73,7 @@ function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOn
 
     return (
         <div
-            className={`max-w-[1440px] ${height} w-full relative group`}
+            className={` ${height} w-full relative group`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
             <div
@@ -100,7 +99,7 @@ function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOn
                     <div
                         onClick={() => setCurrentImageIndex(index)}
                         key={index}
-                        className={`h-2 w-2 mx-1 rounded-full hover:bg-gray-400 ${currentImageIndex === index ? 'bg-gray-700' : 'bg-gray-300'
+                        className={`h-2 w-2 mx-1 rounded-full hover:bg-gray-400 ${currentImageIndex === index ? 'bg-gray-400' : 'bg-white'
                             }`}
                     ></div>
                 ))}

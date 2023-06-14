@@ -23,7 +23,7 @@ function BillboardCard({ imagePath, title, subtitle, buttonText, backgroundColor
                 <p><Link className={`border ${buttonColor} rounded-full px-3.5 py-1 font-semibold`} href={`${buttonLink}`}>{buttonText}</Link></p>
             </div>
             <Image alt='billboard-image' src={imagePath}
-                className='object-contain md:w-1/2 md:' />
+                className='object-contain md:w-1/2 md:' width={1000} height={1000} />
         </div>
     )
 }
