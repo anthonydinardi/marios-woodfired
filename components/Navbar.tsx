@@ -44,7 +44,7 @@ function Navbar({ links }: Props) {
                             alt="mario's logo"
                             className='md:w-14 md:h-14' />
                     </Link>
-                    <p className='text-lg'>Mario's Wood-Fired Mobile Pizza</p>
+                    <p className='text-lg'>Mario&apos;s Wood-Fired Mobile Pizza</p>
                     <div onClick={handleNavClick} className='text-3xl absolute right-5  cursor-pointer md:hidden'>
                         {navbarOpen ?
                             <XMarkIcon
