@@ -9,7 +9,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <Navbar />
             <div className="flex min-h-screen flex-col justify-center py-2 mt-6">
                 <Head>
-                    <title>Starbucks 2</title>
+                    <title>Marios Woodfired</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 

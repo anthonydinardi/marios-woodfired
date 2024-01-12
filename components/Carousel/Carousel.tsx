@@ -4,13 +4,14 @@ import { useEffect, useState } from 'react'
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/solid";
 
 interface Props {
+    width?: string;
     height?: string;
     imagePaths: string[];
     imageDuration?: number;
     pauseOnHover?: boolean;
 }
 
-function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOnHover = true }: Props) {
+function Carousel({ width = "w-full", height = "h-[400px]", imagePaths, imageDuration = 7, pauseOnHover = true }: Props) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [isPaused, setIsPaused] = useState(false);
 
@@ -73,7 +74,7 @@ function Carousel({ height = "h-[400px]", imagePaths, imageDuration = 7, pauseOn
 
     return (
         <div
-            className={` ${height} w-full relative group`}
+            className={` ${width} ${height} relative group`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}>
             <div
