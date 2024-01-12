@@ -30,7 +30,7 @@ export default function Page() {
                     (Margherita, Pepperoni, Four Cheese White, and your choice from the menu).
                 </p>
                 <p className="mb-4">
-                    If you don't see a pizza you like, just let us know, and we can pretty much make anything!
+                    If you don&apos;t see a pizza you like, just let us know, and we can pretty much make anything!
                 </p>
                 <p className="mb-4">
                     Accompanied by refreshing salad for everyone.
