@@ -3,6 +3,7 @@ import './globals.css'
 import { Merriweather } from 'next/font/google'
 import Head from 'next/head'
 import { Metadata } from 'next'
+import Footer from '@/components/Footer'
 
 const merriweather = Merriweather({ subsets: ['latin'], weight: ['300', '400', '700', '900'] })
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <div className='flex min-h-screen flex-col items-center  max-w-[1080px] 2xl:max-w-[1440px] m-auto'>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   )

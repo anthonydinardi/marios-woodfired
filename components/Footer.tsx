@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 function Footer() {
   return (
-    <footer className="border-t-2 p-5">
+    <footer className="border-t-2 p-5 mt-4">
         <div className='lg:px-10 2xl:px-0 2xl:mx-auto 2xl:max-w-7xl'>
             <div className="grid grid-cols-1 py-5 border-b-2 lg:grid-cols-5 lg:gap-8">
                 <CollapsableList title='About Us'>

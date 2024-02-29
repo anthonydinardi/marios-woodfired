@@ -20,7 +20,7 @@ export default function Page() {
             <Carousel height={"h-[200px] md:h-[400px]"} imagePaths={images} pauseOnHover={false} />
 
             <div className='mt-4 mx-4 md:m-0'>
-                <h1 className="text-3xl font-bold mb-8">Wood-Fired Pizza Extravaganza for 50+ Guests - Starting at $1,750 + Tax</h1>
+                <h1 className="text-3xl font-bold mb-8">Wood-Fired Pizza Extravaganza for 50+ Guests - Starting at $1,800 + Tax</h1>
 
                 <p className="mb-4">
                     Embark on a culinary journey with our mobile wood-fired pizza oven service, perfect for gatherings of 50 guests or more.
@@ -36,7 +36,7 @@ export default function Page() {
                     Accompanied by refreshing salad for everyone.
                 </p>
 
-                <p><b>Additional guests beyond 50 are welcome at an extra charge of $18.00 per person.</b></p>
+                <p><b>Additional guests beyond 50 are welcome at an extra charge of $20.00 per person.</b></p>
                 <br />
 
                 <div className="mb-8">
@@ -65,7 +65,7 @@ export default function Page() {
                 </div>
 
                 <div>
-                    <h2 className="text-2xl font-bold mb-4">Indulge in Dessert Delights - $2.00 per person:</h2>
+                    <h2 className="text-2xl font-bold mb-4">Indulge in Dessert Delights - $10.00 per person:</h2>
                     <ul className="list-none">
                         <li>Freshly Stuffed Cannoli</li>
                         <li>Nutella Pizza with Fresh Strawberries and Bananas</li>
