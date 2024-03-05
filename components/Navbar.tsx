@@ -65,19 +65,19 @@ function Navbar({ links }: Props) {
 
                 <div className={`md:flex md:items-center md:pb-0 pb-2 md:border-0 border-t-[#e5e7eb] border-t-2 absolute md:static bg-slate-100 z-[1] left-0 w-full md:w-auto md:px-0 px-9 md:transition-none transition-all duration-500 ease-in ${navbarOpen ? 'top-20' : 'top-[-490px]'}`}>
                     <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
-                        <Link href="/" className='text-gray-800 hover:text-gray-400 duration-500'>About</Link>
+                        <Link href="/" className='text-gray-800 hover:text-gray-400 duration-500'>Home</Link>
                         <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
                     </div>
-                    <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
+                    {/* <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
                         <Link href="/" className='text-gray-800 hover:text-gray-400 duration-500'>Menu</Link>
                         <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
-                    </div>
+                    </div> */}
                     <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
                         <Link href="/pricing" className='text-gray-800 hover:text-gray-400 duration-500'>Pricing</Link>
                         <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
                     </div>
                     <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
-                        <Link href="/" className='text-gray-800 hover:text-gray-400 duration-500'>Contact Us</Link>
+                        <Link href="/contact-us" className='text-gray-800 hover:text-gray-400 duration-500'>Contact Us</Link>
                         <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
                     </div>
                 </div>

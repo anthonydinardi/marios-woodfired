@@ -26,7 +26,7 @@ export default function Page() {
                     Embark on a culinary journey with our mobile wood-fired pizza oven service, perfect for gatherings of 50 guests or more.
                 </p>
                 <p className="mb-4">
-                    For a base fee of $1,750 plus tax, enjoy an all-you-can-eat pizza feast for 2 1/2 hours. This package includes four signature pizzas
+                    For a base fee of $1,800 + tax, enjoy an all-you-can-eat pizza feast for 2 1/2 hours. This package includes four signature pizzas
                     (Margherita, Pepperoni, Four Cheese White, and your choice from the menu).
                 </p>
                 <p className="mb-4">

@@ -16,8 +16,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <main className="flex w-full flex-1 flex-col items-center">
                     {children}
                 </main>
-
-
             </div>
             <Footer />
         </>

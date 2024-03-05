@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="border-t-2 p-5 mt-4">
         <div className='lg:px-10 2xl:px-0 2xl:mx-auto 2xl:max-w-7xl'>
-            <div className="grid grid-cols-1 py-5 border-b-2 lg:grid-cols-5 lg:gap-8">
+            {/* <div className="grid grid-cols-1 py-5 border-b-2 lg:grid-cols-5 lg:gap-8">
                 <CollapsableList title='About Us'>
                         <li>Our Company</li>
                         <li>Our Coffee</li>
@@ -45,17 +45,14 @@ function Footer() {
                     <li>Order and Pickup Options</li>
                     <li>Explore and Find Coffee for Home</li>
                 </CollapsableList>
-            </div>
+            </div> */}
             <div className="py-9 space-y-7">
                 <div className='space-x-4'>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='spotify'/>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='facebook'></SocialIcon>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='pinterest'></SocialIcon>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='instagram'></SocialIcon>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='youtube'></SocialIcon>
-                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='twitter'></SocialIcon>
+                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='facebook' url='https://www.facebook.com/Mariosofmahopac' target='_blank'></SocialIcon>
+                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='instagram' url='https://www.instagram.com/marioswoodfired/' target='_blank'></SocialIcon>
+                    <SocialIcon bgColor='black' style={{ height: 35, width: 35 }} network='youtube' url='https://www.youtube.com/@dinm65' target='_blank'></SocialIcon>
                 </div>
-                <div className='space-y-4 lg:space-y-0 lg:flex lg:flex-row lg:space-x-5'>
+                {/* <div className='space-y-4 lg:space-y-0 lg:flex lg:flex-row lg:space-x-5'>
                     <div>Privacy Notice</div>
                     <div className='hidden lg:flex'>|</div>
                     <div>Terms of Use</div>
@@ -65,8 +62,8 @@ function Footer() {
                     <div>CA Supply Chain Act</div>
                     <div className='hidden lg:flex'>|</div>
                     <div>Cookie Preference</div>
-                </div>
-                <p className='text-sm text-gray-500'>© 2023 Starbucks Coffee Company. All rights reserved.</p>
+                </div> */}
+                <p className='text-sm text-gray-500'>Website by <a href='mailto:anthonydinardi1@gmail.com' className='underline'>Anthony DiNardi</a></p>
             </div>
         </div>
     </footer>
