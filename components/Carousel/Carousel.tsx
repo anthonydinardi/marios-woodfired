@@ -79,7 +79,7 @@ function Carousel({ width = "w-full", height = "h-[400px]", imagePaths, imageDur
             onMouseLeave={handleMouseLeave}>
             <div
                 style={{ backgroundImage: `url(${imagePaths[currentImageIndex]})` }}
-                className='w-full h-full bg-center bg-cover duration-500'
+                className='w-full h-full bg-center bg-cover duration-500 md:rounded'
             ></div>
 
             {/* left arrow */}

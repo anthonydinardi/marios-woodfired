@@ -25,7 +25,7 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <body className='bg-slate-100'>
+      <body className='text-black bg-slate-100'>
         <Navbar />
         <div className='flex min-h-screen flex-col items-center  max-w-[1080px] 2xl:max-w-[1440px] m-auto'>
           {children}

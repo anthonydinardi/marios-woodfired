@@ -19,7 +19,7 @@ export default function Page() {
         <div className='text-center md:text-start md:grid md:grid-cols-2 md:gap-4 md:me-5'>
             <Carousel height={"h-[200px] md:h-[400px]"} imagePaths={images} pauseOnHover={false} />
 
-            <div className='mt-4 mx-4 md:m-0'>
+            <div className='mt-4 mx-4 md:m-0 bg-gray-300 p-5 rounded'>
                 <h1 className="text-3xl font-bold mb-8">Wood-Fired Pizza Extravaganza for 50+ Guests - Starting at $1,800 + Tax</h1>
 
                 <p className="mb-4">
