@@ -4,9 +4,11 @@ import Image from 'next/image'
 
 export default function Home() {
   const images: string[] = [
-    '/img/tent-at-night.jpg',
     '/img/pizza-in-oven.jpg',
-    '/img/trays-of-food.jpg'
+    '/img/tent-at-night.jpg',
+    '/img/pizza/pizza-whiteonion.jpeg',
+    '/img/wings.jpeg',
+    '/img/pizza/pizza-roni-closeup.jpeg'
   ];
 
   return (
@@ -16,17 +18,17 @@ export default function Home() {
       <BillboardCard
         backgroundColor='bg-[#0F4D05]'
         buttonColor='000000'
-        buttonLink='/'
+        buttonLink='/contact-us'
         buttonText='Book Now!'
         textColor='text-[#ffffff]'
-        title='Unleash the Flavor with our Mobile Pizza Kitchen!'
+        title='Neapolitan pizza expertly crafted in your backyard'
         subtitle='Perfect for all occasions, our wood-fired pizza catering is ready to elevate your event to new culinary heights.'
         imagePath='/img/tent-and-trailer.jpg' />
 
       <BillboardCard
         backgroundColor='bg-[#580606]'
         buttonColor='000000'
-        buttonLink='/'
+        buttonLink='/contact-us'
         buttonText='Book Now!'
         textColor='text-[#ffffff]'
         title='900 Degrees. 90 Seconds. Perfection.'

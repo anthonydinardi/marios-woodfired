@@ -10,9 +10,10 @@ export default function Page() {
     
 
     const images: string[] = [
-        '/img/pizza/pizza_pepperoni.jpg',
+        '/img/pizza/pizza-marg.jpeg',
         '/img/pizza/pizza_rabe_sausage.jpg',
-        '/img/pizza/pizza_white.jpg'
+        '/img/pizza/pizza-whiteonion.jpeg',
+        '/img/pizza/pizza-meatlovers.jpeg',
     ];
 
     return (
@@ -20,13 +21,13 @@ export default function Page() {
             <Carousel height={"h-[200px] md:h-[400px]"} imagePaths={images} pauseOnHover={false} />
 
             <div className='mt-4 mx-4 md:m-0 bg-gray-300 p-5 rounded'>
-                <h1 className="text-3xl font-bold mb-8">Wood-Fired Pizza Extravaganza for 50+ Guests - Starting at $1,800 + Tax</h1>
+                <h1 className="text-3xl font-bold mb-8">Wood-Fired Pizza Extravaganza for 50+ Guests - Starting at $1,750 + Tax</h1>
 
                 <p className="mb-4">
                     Embark on a culinary journey with our mobile wood-fired pizza oven service, perfect for gatherings of 50 guests or more.
                 </p>
                 <p className="mb-4">
-                    For a base fee of $1,800 + tax, enjoy an all-you-can-eat pizza feast for 2 1/2 hours. This package includes four signature pizzas
+                    For a base fee of <b>$1,750 + tax</b>, enjoy an all-you-can-eat pizza feast for <b>2 1/2 hours</b>. This package includes <b>four</b> signature pizzas
                     (Margherita, Pepperoni, Four Cheese White, and your choice from the menu).
                 </p>
                 <p className="mb-4">
@@ -36,7 +37,9 @@ export default function Page() {
                     Accompanied by refreshing salad for everyone.
                 </p>
 
-                <p><b>Additional guests beyond 50 are welcome at an extra charge of $20.00 per person.</b></p>
+                <p><b>Additional guests beyond 50 are welcome at an extra charge of $18.00 per person.</b></p>
+                <p><b>Travel Fee: $100.00</b></p>
+                <p><b>Tips are greatly appreciated!</b></p>
                 <br />
 
                 <div className="mb-8">
@@ -65,11 +68,11 @@ export default function Page() {
                 </div>
 
                 <div>
-                    <h2 className="text-2xl font-bold mb-4">Indulge in Dessert Delights - $10.00 per person:</h2>
+                    <h2 className="text-2xl font-bold mb-4">Indulge in Dessert Delights - $5.00 per person:</h2>
                     <ul className="list-none">
                         <li>Freshly Stuffed Cannoli</li>
                         <li>Nutella Pizza with Fresh Strawberries and Bananas</li>
-                        <li>Espresso also available</li>
+                        <li>Espresso also available - $2.00 per person</li>
                     </ul>
                 </div>
             </div>
