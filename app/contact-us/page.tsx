@@ -39,6 +39,7 @@ export default function Page() {
       <div className="space-y-12">
         <div className="border-b border-gray-900/10 pb-12">
           <h2 className="text-lg font-semibold leading-7 text-gray-900">Contact Us!</h2>
+          <h3 className="text-sm font-semibold leading-7 text-gray-900">Located in Mahopac, NY, proudly serving the Hudson Valley and select areas of Connecticut.</h3>
 
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
