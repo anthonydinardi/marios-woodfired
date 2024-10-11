@@ -80,6 +80,10 @@ function Navbar({ links }: Props) {
                         <Link href="/contact-us" className='text-gray-800 hover:text-gray-400 duration-500'>Contact Us</Link>
                         <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
                     </div>
+                    <div className='md:ml-8 md:my-0 my-7 md:text-base text-lg border-b-slate-100 border-b-2 md:border-b-0 flex justify-between items-center'>
+                        <Link href="https://mariosofmahopac.com/" className='text-gray-800 hover:text-gray-400 duration-500' target='_blank'>Our Restaurant</Link>
+                        <ChevronRightIcon className='h-6 w-6 text-gray-800 md:hidden' />
+                    </div>
                 </div>
             </div>
         </div>
