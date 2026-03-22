@@ -12,6 +12,7 @@ export default function Page() {
     const images: string[] = [
         '/img/pizza/pizza-marg.jpeg',
         '/img/pizza/pizza_rabe_sausage.jpg',
+        '/img/trays-of-food.jpg',
         '/img/pizza/pizza-whiteonion.jpeg',
         '/img/pizza/pizza-meatlovers.jpeg',
     ];

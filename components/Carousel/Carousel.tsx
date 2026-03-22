@@ -95,7 +95,7 @@ function Carousel({ width = "w-full", height = "h-[400px]", imagePaths, imageDur
             </div>
 
             {/* dots */}
-            <div className="flex justify-center mt-8 absolute inset-x-0 bottom-6">
+            <div className="flex justify-center mt-8 absolute bottom-2 left-1/2 -translate-x-1/2 bg-gray-300/90 px-4 py-2 rounded-full md:bottom-6">
                 {imagePaths.map((_, index) => (
                     <div
                         onClick={() => setCurrentImageIndex(index)}

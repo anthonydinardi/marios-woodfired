@@ -4,11 +4,13 @@ import Image from 'next/image'
 
 export default function Home() {
   const images: string[] = [
+    '/img/daily_voice_banner_2.png',
     '/img/pizza-in-oven.jpg',
     '/img/tent-at-night.jpg',
     '/img/pizza/pizza-whiteonion.jpeg',
     '/img/wings.jpeg',
-    '/img/pizza/pizza-roni-closeup.jpeg'
+    '/img/pizza/pizza-roni-closeup.jpeg',
+    '/img/trays-of-food.jpg'
   ];
 
   return (
@@ -46,6 +48,17 @@ export default function Home() {
         subtitle='Based out of Mahopac, NY, we bring our authentic wood-fired pizza experience to homes and events across the Hudson Valley and select areas of Connecticut.'
         imagePath='/img/tent-at-night.jpg'
         imageFirst={false} />
+
+      <BillboardCard
+        backgroundColor='bg-[#580606]'
+        buttonColor='000000'
+        buttonLink='/awards'
+        buttonText='Read More!'
+        textColor='text-[#ffffff]'
+        title='Award-Winning Pizza!'
+        subtitle='Winner of the 2025 Best Pizza In The Hudson Valley Award by Daily Voice'
+        imagePath='/img/daily_voice_banner.JPEG'
+        imageFirst={true} />
     </main>
   )
 }
